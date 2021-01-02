@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <div>
+        <a href="" onclick='myFunctionLike()' class="btn-floating btn-large" >
+            <i id="unlike" class="material-icons grey">favorite_border</i>
+        </a>
+        <a href="" onclick='myFunctionUnLike()' class="btn-floating btn-large" >
+            <i id="like" class="material-icons red">favorite</i>
+        </a>
+        <a href="#" class="btn-floating btn-large" >
+            <i id="demo" onclick='document.getElementById("demo").innerHTML = "favorite_border"' class="material-icons red">favorite</i>
+        </a>
+    </div>
+<script>
+function myFunctionLike() {
+  var x = document.getElementById("unlike");
+  var y = document.getElementById("like");
+    x.style.display === "none" 
+    y.style.display = "block";
+}
+</script>
+<script>
+function myFunctionUnLike() {
+  var x = document.getElementById("unlike");
+  var y = document.getElementById("like");
+    y.style.display === "none" 
+    x.style.display = "block";
+}
+</script>
+<!--<script>
+    function mfun(x) {
+        x.toggle("material-icons red-text");
+    }
+</script>-->
+</body>
+</html>
