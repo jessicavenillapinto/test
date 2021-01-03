@@ -1,0 +1,44 @@
+.bg, .newsletter-bg {
+  background-image: url('download.jpg');
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: center;
+}
+
+.bg {
+  background-position: center top;
+  padding: 100px 300px;
+}
+
+.wrap {
+  position: relative;
+}
+
+.newsletter-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    margin: 0 auto;
+    height: 25vh;
+  background-position: ;
+  -webkit-filter: blur(1px);
+}
+
+.newsletter-text {
+    border: 2px solid white;
+    padding: 50px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 500px;
+    h2 {
+      color: white;
+      margin-top: 0;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
